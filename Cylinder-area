@@ -1,0 +1,21 @@
+Algoritmo Ejercicio1
+	Definir area, volumen, rad, alt Como Real
+	
+	Escribir "Ingrese el radio: ";
+	Leer rad;
+	
+	
+	Escribir "Ahora ingrese la altura: ";
+	Leer alt	
+	
+	//Determina el valor del volumen y del area
+	volumen = pi*(rad^2)*alt;
+	area = 2*pi*rad*(rad+alt);
+	
+	
+	
+	Imprimir "El area del cilindro es: ", area, " Y el volumen del cilindro es: ", volumen;
+	
+	//Datos finales del problema matematico
+	
+FinAlgoritmo
